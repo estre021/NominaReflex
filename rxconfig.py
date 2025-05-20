@@ -1,5 +1,5 @@
 import reflex as rx
 
 config = rx.Config(
-    app_name="CalculadoraNominaReflex",
+    app_name="NominaReflex",
 )

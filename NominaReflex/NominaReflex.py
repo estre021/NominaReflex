@@ -74,11 +74,6 @@ def resultado() -> rx.Component:
         )
     )
 
-<<<<<<< HEAD
-
-=======
-# Declarar y registrar las páginas
->>>>>>> aad6588 (Subiendo proyecto completo con cálculo ISR mensual actualizado)
 app = rx.App()
 app.add_page(index, route="/")
 app.add_page(resultado, route="/resultado")

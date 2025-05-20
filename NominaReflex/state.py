@@ -35,11 +35,7 @@ class State(rx.State):
         self.excedente = 0
         self.ir = 0
 
-<<<<<<< HEAD
       
-=======
-        # Calcular ISR según tabla oficial mensual
->>>>>>> aad6588 (Subiendo proyecto completo con cálculo ISR mensual actualizado)
         if ingreso_para_isr <= 34685:
             self.ir = 0
             self.excedente = 0
@@ -53,11 +49,7 @@ class State(rx.State):
             self.excedente = ingreso_para_isr - 72260.25
             self.ir = 6647.91 + self.excedente * 0.25
 
-<<<<<<< HEAD
      
-=======
-        # Bonificación si aplica
->>>>>>> aad6588 (Subiendo proyecto completo con cálculo ISR mensual actualizado)
         self.bonificacion = 0
         if self.aplica_bonificacion == "Sí":
             if self.anios_en_empresa >= 5:
